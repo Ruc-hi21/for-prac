@@ -1,0 +1,31 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+   .cardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #e70c4a, #f10bc7);
+    box-shadow: slategray;
+    color: black;
+    
+   }
+ @keyframes bounce{
+    from{}
+    50% {transform:translateY(-20px)}
+    to {}
+}
+    .card {
+      width: 150px;
+      height: 200px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(35, 21, 21, 0.1);
+      text-align: center;
+      justify-content: center;
+      animation:bounce 3s ease infinite; 
+      font-size: medium;
+     }
